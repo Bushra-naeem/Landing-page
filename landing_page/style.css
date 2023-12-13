@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    height: 100vh;
+    width: 100%;
+    background: url('landing_page.jpg');
+    background-size: cover;
+    color: white;
+}
+.navbar{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.nav-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-logo i{
+    font-size: 40px;
+}
+.heading{
+    font-size: 1.6rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 5px;
+    font-weight: 500;
+
+}
+
+.nav-options a{
+    text-decoration: none;
+    font-family: sans-serif;
+    color: white;
+    font-family: sans-serif;
+    padding: 20px 25px;
+    font-size: 1.2rem;
+}
+
+.display-button{
+    font-family: sans-serif;
+    background-color: #0077b6;
+    color: white;
+    border: 0.5px solid #0077b6;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    margin: 4px 10px;
+    padding: 6px 10px;
+}
+.content{
+    margin: 70px 150px;
+}
+.content-heading{
+    font-size: 3rem;
+}
+
+hr{
+    width: 36%;
+    border-color: #0077b6;
+}
+.paragraph{
+    font-size: 1.1rem;
+}
+/* .panel{
+    font-family: sans-serif;
+    background-color: #0077b6;
+    color: white;
+    border: 0.5px solid #0077b6;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    display: flex;
+    /* align-items: center; */
+    /* margin-top: 110px;
+    margin-left: 150px;
+} */ 
+.last-button{
+    font-family: sans-serif;
+    background-color: #0077b6;
+    color: white;
+    border: 0.5px solid #0077b6;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    padding: 6px 10px;
+}
+.panel{
+    color: rgb(128, 128, 128);
+    font-size: 1.6rem;
+    margin-top: 180px;
+    margin-left: 150px;
+}
+
+
